@@ -9,7 +9,7 @@ public class Hidden{
 		obj.setupWeights();
 
 		ws1 = (obj.getFirstLayerWeights(0)*obj.getInputArr(0))+(obj.getFirstLayerWeights(1)*obj.getInputArr(1))-2;
-		ws2 = (obj.getFirstLayerWeights(2)*obj.getInputArr(0))+(obj.getFirstLayerWeights(3)*obj.getInputArr(1))+7;
+		ws2 = (obj.getFirstLayerWeights(2)*obj.getInputArr(0))+(obj.getFirstLayerWeights(3)*obj.getInputArr(1))+3;
 		activationVal1[0] = sigmoid(ws1);
 		activationVal1[1] = sigmoid(ws2);
 		System.out.println(activationVal1[0]);
