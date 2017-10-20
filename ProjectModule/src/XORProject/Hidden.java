@@ -1,3 +1,5 @@
+package XORProject;
+
 public class Hidden{
 	private double [] activationVal1 = new double[2];
 	private Input obj = new Input();
